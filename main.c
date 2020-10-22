@@ -42,7 +42,7 @@ int main ()
   while(continuar);
 
   printf("\n\n-------------------------------------------------------------------------- Boas Festas!!!----------------------------------------------------------------------------------\n\n");
-  printf("By: Alisson Bispo\n");
+  printf("By: PAULO FREITAS\n");
 
   return 0;
 }
