@@ -6,15 +6,15 @@ int main ()
   setlocale(LC_ALL,"portuguese");
 
   int i, j, k, m, n, H; /*Variáveis da árvore*/
-  int o, p, q;
-  int continuar;
+  int o, p, q; //letras
+  int continuar; //continuar 
 
   do
   {
         system("cls || clear"); /*limpar e começar de novo*/
         printf("-------------------------------------------------------------------------- Merry Christmas ----------------------------------------------------------------------------------------- \n\n"); /*cabeçalho*/
 
-        printf ("Feliz natal! Qual a altura da sua árvore?:\n");
+        printf ("Feliz natal! Qual a altura da sua árvore?:\n"); //textao
         scanf ("%i", &H);
 
        for (i=1; i<=H; i++)/*Limita as ações dentro da quantidade de linhas dada pelo usuário*/
